@@ -1,7 +1,6 @@
-
-
-
-
+* {
+  scroll-behavior: smooth;
+}
 
   body {
     background-image: url("Background.jpg");
@@ -223,7 +222,7 @@
   .grid-item h2{font-size: 25px;}
   .grid-item span{font-size: 10px;}
   .grid-item h1{color:white;font-size: 35px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bolder;}
-  .grid-item li{ font-size: medium; line-height: 150%;;}
+  .grid-item li{ font-size: min(2vw,15px); line-height: 150%;;}
   .grid-item li::marker {
     color: rgb(255, 28, 28); /* Change the color to blue */
     
@@ -281,7 +280,7 @@
     nav ul {
       list-style-type: none;
       display: flex;
-      font-size: 10px;
+      font-size: 8px;
     }
   
     body{font-size: 12px;}
