@@ -29,6 +29,11 @@
     margin: 20px auto;
     font-size: 90%;
   }
+
+  #nav-bar {
+    margin-left: auto; /* Pushes the navbar items to the right */
+  }
+  
   
   nav {
     color: #fff;
@@ -94,7 +99,7 @@
   }
   
   #plan {
-    background-color: #deff02;
+    background-color: white;
     color: black;
     padding: 5px 20px;
     border-radius: 20px;
@@ -104,10 +109,7 @@
   #plan:hover{box-shadow: 0 0 15px 3px #ecff6e; /* Initial shadow */
     animation: glow 1s infinite alternate;}
   
-  #nav-bar {
-    margin-left: auto; /* Pushes the navbar items to the right */
-  }
-  
+
   
   .sidebox {
     background-color: rgba(0, 0, 0, 0.8);
